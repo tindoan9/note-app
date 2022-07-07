@@ -14,7 +14,7 @@ export default function NoteList() {
 	return (
 		<>
 			{noteList.map((item, index) => <div
-				key={index} className="note__list">
+				key={index}>
 				<h2>{item.title}</h2>
 				<span onClick={() => handleTaskDetail(item)}>(Show Details)</span>
 				<span onClick={() => handleDeleteNote(item.id)}>(Remove Note)</span>

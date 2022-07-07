@@ -9,7 +9,7 @@ export default function NoteDetail() {
 	const location = useLocation()
 	return (
 		<>
-			<div className="note__detail">
+			<div>
 				<h2>{location.state.title}</h2>
 				<span onClick={navigate(`/note-detail`)}>(Hide Details)</span>
 				<span onClick={() => handleDeleteNote(id)}>(Remove Note)</span><hr />

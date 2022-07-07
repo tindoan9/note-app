@@ -17,9 +17,9 @@ export default function NoteAdd() {
 
 	return (
 		<>
-			<div className="note__add">
+			<div>
 				<h1>Timestamped Notes App</h1>
-				<div className="input__note">
+				<div>
 					<input type="text"
 						onChange={(e) => setNoteTitle(e.target.value)}
 						placeholder='Note Title'
